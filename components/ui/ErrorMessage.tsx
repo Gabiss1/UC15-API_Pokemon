@@ -1,6 +1,6 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native'
 
-import { COLORS } from '../../constants/colors'
+import { COLORS } from '@/src/constants/colors'
 
 type Props = {
   message: string

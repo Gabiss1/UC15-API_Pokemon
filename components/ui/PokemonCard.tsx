@@ -1,8 +1,8 @@
 import { Image, StyleSheet, Text, View } from "react-native";
 
-import { COLORS } from "../../constants/colors";
-import { PokemonDetail } from "../../types/Pokemon";
-import { formatPokemonName } from "../../utils/formatPokemon";
+import { COLORS } from "@/src/constants/colors";
+import { PokemonDetail } from "@/src/types/Pokemon";
+import { formatPokemonName } from "@/src/utils/formatPokemon";
 
 type Props = {
   pokemon: PokemonDetail;

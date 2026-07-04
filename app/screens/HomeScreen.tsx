@@ -2,15 +2,15 @@ import { useEffect, useMemo, useState } from 'react'
 import { FlatList, StyleSheet, Text, View } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
-import ErrorMessage from '../../../components/ui/ErrorMessage'
-import Header from '../../../components/ui/Header'
-import Loading from '../../../components/ui/Loading'
-import PokemonCard from '../../../components/ui/PokemonCard'
-import SearchBar from '../../../components/ui/SearchBar'
+import ErrorMessage from '../../components/ui/ErrorMessage'
+import Header from '../../components/ui/Header'
+import Loading from '../../components/ui/Loading'
+import PokemonCard from '../../components/ui/PokemonCard'
+import SearchBar from '../../components/ui/SearchBar'
 
-import { COLORS } from '../../../constants/colors'
-import { getPokemonsWithDetails } from '../../../services/pokemonApi'
-import { PokemonDetail } from '../../../types/Pokemon'
+import { COLORS } from '@/src/constants/colors'
+import { getPokemonsWithDetails } from '@/src/services/pokemonApi'
+import { PokemonDetail } from '@/src/types/Pokemon'
 
 export default function HomeScreen() {
     const [pokemons, setPokemons] = useState<PokemonDetail[]>([])

@@ -1,5 +1,5 @@
+import { COLORS } from "@/src/constants/colors";
 import { ActivityIndicator, StyleSheet, Text, View } from "react-native";
-import { COLORS } from "../../constants/colors";
 
 export default function Loading() {
     return (

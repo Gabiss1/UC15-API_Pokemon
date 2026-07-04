@@ -1,6 +1,6 @@
+import { COLORS } from "@/src/constants/colors";
+import { LinearGradient } from 'expo-linear-gradient';
 import { StyleSheet, Text, View } from "react-native";
-import {LinearGradient} from 'expo-linear-gradient'
-import { COLORS } from "@/constants/colors";
 
 export default function Header() {
     return (

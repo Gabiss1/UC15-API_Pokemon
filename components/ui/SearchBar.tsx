@@ -1,7 +1,7 @@
 import { Ionicons } from "@expo/vector-icons";
 
+import { COLORS } from "@/src/constants/colors";
 import { StyleSheet, TextInput, View } from "react-native";
-import { COLORS } from "../../constants/colors";
 
 type Props ={
     value: string,
